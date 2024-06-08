@@ -1,0 +1,9 @@
+<div class="task-list-container">
+  <p>Agrega tus tareas pendientes junto con la hora limite para realizarlas</p>
+  <h2>Lista de Tareas</h2>
+  <input [(ngModel)]="newTaskTitle" placeholder="Nueva tarea" /> <!-- Añade un input aquí -->
+  <button (click)="addTask()">Agregar tarea</button>
+  <ul>
+    <li *ngFor="let task of tasks">{{ task.title }}</li>
+  </ul>
+</div>

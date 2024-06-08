@@ -1,0 +1,16 @@
+.task-list-container {
+  padding: 20px;
+}
+
+.task-list-container input {
+  margin-right: 10px;
+}
+
+.task-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list-container li {
+  padding: 5px 0;
+}
